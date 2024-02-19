@@ -38,7 +38,7 @@ input BookInput {
     login(email: String!, password: String!): Auth
     addUser(username: String!, email: String!, password: String!): Auth  
     saveBook(bookInput:BookInput): User
-    removeBook(bookId: ID!): User
+    removeBook(bookId: String!): User
   }
 `;
 

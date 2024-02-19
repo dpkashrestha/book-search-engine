@@ -1,5 +1,4 @@
 const express = require("express");
-
 // Import the ApolloServer class and expressMiddleware helper function
 const { ApolloServer } = require("@apollo/server"); //
 const { expressMiddleware } = require("@apollo/server/express4"); //
@@ -10,7 +9,6 @@ const { authMiddleware } = require("./utils/auth");
 // Import the two parts of a GraphQL schema
 const { typeDefs, resolvers } = require("./schemas"); //
 const db = require("./config/connection");
-// const routes = require("./routes");
 
 const app = express();
 const PORT = process.env.PORT || 3001;
@@ -33,8 +31,6 @@ const startApolloServer = async () => {
       context: authMiddleware,
     })
   );
-
-  // app.use(routes);
 
   // if we're in production, serve client/build as static assets
   if (process.env.NODE_ENV === "production") {
