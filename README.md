@@ -25,8 +25,15 @@ npm install
 2. cmd> npm run develop
 
 ## Screenshot
+<img width="1728" alt="Screenshot 2024-02-19 at 1 57 06 PM" src="https://github.com/dpkashrestha/book-search-engine/assets/142865374/fafd0b67-0fa0-4419-a296-91ccd61af269">
+
+<img width="1728" alt="Screenshot 2024-02-19 at 1 57 20 PM" src="https://github.com/dpkashrestha/book-search-engine/assets/142865374/f2e9d220-727d-4c89-8130-cd3c0550461d">
+
 
 ## Deployed App
+
+https://dpka-book-search-engine.onrender.com/
+
 
 ## License
 
